@@ -1,0 +1,60 @@
+@media (max-width: 800px){
+    
+   
+}
+
+@media only screen and (max-width: 801px) { 
+	.im-perfil{ /*Ajustes para mostrar la imagen centrada y un tamaño menor*/
+		width: 45%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	position: relative; /*Permite centralizar la imagen*/
+	}
+	.social-content{
+		top: -110px; 
+	}
+	.foto-menu{
+		display: none; /*Ocultar imagen del menu*/
+	}
+	.content-media{
+		position: initial; /*Cambiar posicion para que se ajuste*/
+		margin: 0 auto; /*Centrar los icon*/
+	}
+	#article1{
+		display: inherit;
+	}
+	#apresentação{ /*Mejorar ubicacion del texto*/
+		margin-left: 10px;
+		display: inherit;
+		top: -70px;
+	}
+	.projects-content{
+		display: inherit;
+	}
+	.card-background{
+	    width: 100%;
+	    margin-right: 0px;
+	}
+	#projetos{
+		height: auto;
+	}
+	.contato-content{
+		display: inherit;
+	}
+	.texto-contato, .texto-contato p, .formulario,.form1, .form2{
+		width: 100%;
+	}
+	.texto-contato{
+		padding-left: 10px;
+	}
+
+	.form-sub-title{
+	}
+	#contato-back{
+		height: auto;
+	}
+}
+
+   
+
